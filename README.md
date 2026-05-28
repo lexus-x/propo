@@ -50,6 +50,8 @@ flowchart TB
 
 **Figure 1 — The adversarial funnel.** ~40 candidate techniques entered; four red-team agents (whose default was *reject*) and three scoop-check validators killed the crowded/scooped ones (EBT, Mixture-of-Depths, equivariant VLA, flow-map heads, yet-another eval benchmark, …); a final cross-disciplinary sweep mined *less-hyped* fields (classical control, information theory, neuroscience) and authors' own "future work" sections, where genuine white space still exists. Eight proposals survived. Full details: **[docs/methodology.md](docs/methodology.md)** · the complete kill list with the paper that scooped each idea: **[docs/research-log.md](docs/research-log.md)**.
 
+> 📚 **Full research intelligence** gathered along the way — the VLA landscape map, ranked open problems, the benchmark catalog & its flaws, publication strategy, and a cross-domain technique survey with win-win scorecards — is preserved in the **[Knowledge Base → docs/knowledge-base/](docs/knowledge-base/README.md)**.
+
 ---
 
 ## The 8 proposals
@@ -156,7 +158,9 @@ propo/
 └── docs/
     ├── methodology.md   ← the full multi-agent funnel
     ├── research-log.md  ← the kill-list: every rejected idea + the paper that scooped it
-    └── bibliography.md  ← consolidated arXiv references
+    ├── bibliography.md  ← consolidated arXiv references
+    └── knowledge-base/  ← full research intelligence (landscape, open problems,
+                            publication strategy, technique survey, red-team analyses)
 ```
 
 ## Honest disclaimers
